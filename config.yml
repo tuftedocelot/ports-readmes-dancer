@@ -30,5 +30,8 @@ template: "template_toolkit"
 #     start_tag: '[%'
 #     end_tag:   '%]'
 
+# Path where all resources will be accessed
+rootdir: "/ports"
+
 database: /usr/local/share/sqlports
 pkglocate: /usr/local/bin/pkg_locate
